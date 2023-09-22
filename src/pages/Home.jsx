@@ -21,15 +21,10 @@ const Home = () => {
       <Criteria />
       <Faq />
       <Timeline />
-      {/* 
-      
-      
-    
-      
       <Pricing />
       <Partners />
       <Privacy />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };

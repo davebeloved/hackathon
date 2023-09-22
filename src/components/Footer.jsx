@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="">
-      <div className="px-28 py-20 grid grid-cols-3 gap-x-5  footerBg">
+      <div className="px-10 lg:px-28 py-20 grid grid-cols-1 lg:grid-cols-3 gap-x-5 gap-y-16 footerBg ">
         <div className="">
           <img src={Logo} alt="logo image" className="mb-4" />
           <p className="font-monts text-[12px] leading-6 mb-12">
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pl-32">
+        <div className="lg:pl-32">
           <h2 className="unique font-monts text-[14px] mb-5">Useful Links</h2>
           {footerLinks.map((link, idx) => (
             <li key={idx} className="list-none mb-5 font-monts text-[12px]">
@@ -37,7 +37,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="pl-28">
+        <div className="lg:pl-28">
           <h2 className="unique font-monts text-[14px] mb-5">Contact Us</h2>
           <div className="flex items-center gap-x-4 mb-6">
             <img src={Group} alt="" />
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center -mt-10">
+      <div className="lg:text-center pl-10 lg:pl-0 -mt-10">
         <p className="font-monts text-[12px]">
           All rights reserved. © getlinked Ltd.
         </p>
