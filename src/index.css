@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Montserrat:ital,wght@0,300;0,400;1,300;1,400;1,600&family=Poppins:ital,wght@0,500;0,600;0,700;1,300;1,500;1,600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Montserrat:ital,wght@0,300;0,400;1,300;1,400;1,600&family=Poppins:ital,wght@0,500;0,600;0,700;1,300;1,500;1,600&family=Unica+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "tommy";
+  src: url("fonts/made.otf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #150e28;
+  color: #ffff;
+  line-height: normal;
+  overflow-x: hidden;
+}
+
+.btn {
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  padding: 10px 36px;
+  font-weight: 400;
+  border-radius: 4px;
+}
+.navborder {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+.faqborder {
+  border-color: rgba(212, 52, 254, 1);
+}
+.unique {
+  color: rgba(212, 52, 254, 1);
+}
+.uniquebg {
+  background-color: rgba(212, 52, 254, 1);
+}
+.uniqueprice {
+  background-color: rgba(42, 12, 50, 0.8);
+}
+
+.Color {
+  color: rgba(255, 38, 185, 1);
+}
+
+.footerBg {
+  background-color: rgba(16, 11, 32, 1);
+}
+
+.fade {
+  /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.75); */
+  /* background-color: rgba(212, 52, 254, 0.1); */
+}
+/* font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Unica One', 'cursive'; */
