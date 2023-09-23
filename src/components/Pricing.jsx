@@ -69,7 +69,7 @@ const Pricing = () => {
               <img
                 src={Gold}
                 alt="gold"
-                className="absolute -top-16 lg:-top-40 z-20 left-24 lg:left-[179px] w-32 lg:w-64 "
+                className="absolute -top-16 lg:-top-40 z-20 left-20 lg:left-[179px] w-32 lg:w-64 "
               />
               <div className="border faqborder bg-[#150e28] rounded-lg relative mt-7 w-24 lg:w-48 pt-16 lg:pt-28  lg:pb-8 mt- text-center uniqueprice">
                 <h2 className="font-monts text-[12px] lg:text-[36px]">1st</h2>

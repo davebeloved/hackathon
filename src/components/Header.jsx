@@ -39,11 +39,11 @@ const Header = () => {
           alt=""
           className="absolute bottom-28 w-4 lg:bottom-16 right-0 lg:right-44 mb-3 lg:w-5"
         />
-        <h1 className="font-clash font-bold text-3xl text-center lg:text-left  lg:text-7xl lg:leading-[55px] lg:mb-5">
+        <h1 className="font-clash font-bold text-3xl text-center lg:text-left  lg:text-6xl lg:leading-[55px] lg:mb-3">
           getlinked Tech
         </h1>
         <div className="flex items-center justify-center lg:justify-start gap-x-2 mb-3">
-          <h1 className="font-clash font-bold text-[30px] text-center lg:text-left lg:text-6xl">
+          <h1 className="font-clash font-bold text-[30px] text-center lg:text-left lg:text-5xl">
             Hackathon <span className="unique"> 1.0</span>
           </h1>
           <img src={Chain} alt="chain" className="w-5 lg:w-16" />
