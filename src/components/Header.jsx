@@ -17,7 +17,7 @@ const Header = () => {
         <img
           src={Creative}
           alt=""
-          className="absolute right-32 w-4 lg:right-24 -top-7 lg:-top-9 mb-3"
+          className="absolute right-16 w-4 lg:right-24 -top-7 lg:-top-9 mb-3"
         />
         <img
           src={Purple}
@@ -39,7 +39,7 @@ const Header = () => {
           alt=""
           className="absolute bottom-28 w-4 lg:bottom-16 right-0 lg:right-44 mb-3 lg:w-5"
         />
-        <h1 className="font-clash font-bold text-3xl text-center lg:text-left leading-4 lg:text-7xl lg:leading-[55px] mb-5">
+        <h1 className="font-clash font-bold text-3xl text-center lg:text-left  lg:text-7xl lg:leading-[55px] lg:mb-5">
           getlinked Tech
         </h1>
         <div className="flex items-center justify-center lg:justify-start gap-x-2 mb-3">
@@ -76,7 +76,7 @@ const Header = () => {
           <img
             src={Vector}
             alt=""
-            className="absolute  lg:right-0 right-28 lg:w-32 w-16"
+            className="absolute  lg:right-0 right-16 lg:w-32 w-16"
           />
         </div>
         <div className="relative">
