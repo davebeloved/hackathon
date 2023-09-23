@@ -17,7 +17,7 @@ const Header = () => {
         <img
           src={Creative}
           alt=""
-          className="absolute right-16 w-4 lg:right-24 -top-7 lg:-top-9 mb-3"
+          className="absolute right-14 w-4 lg:right-24 -top-4 lg:-top-9 mb-3"
         />
         <img
           src={Purple}
@@ -76,7 +76,7 @@ const Header = () => {
           <img
             src={Vector}
             alt=""
-            className="absolute  lg:right-0 right-16 lg:w-32 w-16"
+            className="absolute  lg:right-0 right-12 lg:w-32 w-16"
           />
         </div>
         <div className="relative">
