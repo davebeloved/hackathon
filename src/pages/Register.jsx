@@ -50,12 +50,12 @@ const Register = () => {
     <>
       <div className="relative">
         <RegisterNav />
-        <div className="px-6 lg:px-24 pt-32 grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-10">
+        <div className="px-1 lg:px-24 pt-32 grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-10">
           <div className="relative">
             <img src={Purple} alt="" className="absolute z-10 -top-16" />
             <img src={Image} alt="registration image z-20 absolute" />
           </div>
-          <div className="shd p-10 w-full relative pb-7  lg:h-[630px]">
+          <div className="shd lg:p-10 p-5  w-full relative pb-7  lg:h-[630px] h-[800px]">
             <img
               src={Purple}
               alt=""

@@ -37,7 +37,7 @@ const Contact = () => {
   return (
     <div className="">
       <NavBar />
-      <div className="px-6 lg:px-24 pt-32 grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-10">
+      <div className="px-1 lg:px-24 pt-32 grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-10">
         <div className="relative  ">
           <img src={Purple} alt="" className="absolute z-10 -top-16" />
           <div className="space-y-6 lg:ml-48 lg:mt-32 text-center lg:text-left">
