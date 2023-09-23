@@ -14,8 +14,8 @@ const Timeline = () => {
       </div>
 
       <div className="lg:flex  justify-around mt-16 relative">
-        <div className="lg:w-[35.3%] mt-28 space-y-28 relative">
-          <div className="lg:text-right ml-14 lg:ml-0 ">
+        <div className="lg:w-[35.3%] mt-28 space-y-28  lg:space-y-24 relative">
+          <div className="lg:text-right ml-14 lg:ml-0 lg:-mt-33 ">
             <img src={Star1} alt="star" className="absolute -top-24 left-32" />
             <h2 className="unique  font-monts text-[12px] lg:text-[24px]">
               Hackathon Announcement
@@ -29,14 +29,14 @@ const Timeline = () => {
             </h2>
           </div>
 
-          <div className="hidden lg:block text-right pt-2">
-            <h2 className="unique font-monts text-[12px] lg:text-[24px]">
+          <div className="hidden lg:block text-right pt-2 lg:pt-0">
+            <h2 className="unique font-monts text-[12px] lg:text-[24px] ">
               November 18 2023
             </h2>
           </div>
 
           <div className="lg:text-right pt-4 ml-14">
-            <h2 className="unique mt-24 font-monts text-[12px] lg:text-[24px]">
+            <h2 className="unique mt-24 lg:mt-0 font-monts text-[12px] lg:text-[24px]">
               Team Registration ends
             </h2>
             <p className="font-monts text-[14px]">
@@ -44,12 +44,12 @@ const Timeline = () => {
             </p>
           </div>
           <div className="text-right pt-7 ">
-            <h2 className="unique hidden lg:block font-monts">
+            <h2 className="unique hidden text-[24px] lg:block font-monts lg:-pt-6">
               November 18 2023
             </h2>
           </div>
-          <div className="ml-14 lg:text-right pt-3">
-            <h2 className=" font-monts unique text-[12px] lg:text-[16px]">
+          <div className="ml-14 lg:text-right">
+            <h2 className=" font-monts unique text-[12px] lg:text-[24px]">
               Getlinked Hackathon 1.0 Officialy Begins
             </h2>
             <p className="font-monts text-[14px]">
@@ -58,14 +58,14 @@ const Timeline = () => {
             </p>
           </div>
           <div className="text-right pt-0 font-monts">
-            <h2 className="unique hidden lg:block text-[12px] lg:text-[16px]">
+            <h2 className="unique hidden lg:block text-[12px] lg:text-[24px] lg:pt-4">
               November 18 2023
             </h2>
           </div>
           <img src={Star1} alt="star" className="absolute bottom-10 left-0" />
         </div>
 
-        <div className="flex flex-col absolute left-0 -top-14 lg:relative items-center gap-y-2 ">
+        <div className="flex flex-col absolute left-0 -top-14 lg:relative lg:mt-12 items-center gap-y-2 ">
           <div className="w-1 h-28 uniquebg"></div>
           <div className="uniquebg w-10 h-10 rounded-full flex items-center justify-center">
             <span className="font-monts ">1</span>
@@ -91,21 +91,21 @@ const Timeline = () => {
             <span className="font-monts ">6</span>
           </div>
         </div>
-        <div className="lg:w-[33.3%] mt-32 space-y-28 relative">
+        <div className="lg:w-[33.3%] mt-32 lg:mt-[120px] space-y-28  relative">
           <div>
-            <h2 className="unique font-monts hidden lg:block">
+            <h2 className="unique font-monts hidden lg:block text-[24px]">
               Novermger 18 2023
             </h2>
           </div>
-          <div className="ml-14 ">
-            <h2 className="-mt-[680px] lg:mt-0 unique font-monts text-[12px] lg:text-[16px]">
+          <div className="ml-14 lg:ml-0">
+            <h2 className="-mt-[680px] lg:mt-0 unique font-monts text-[12px] lg:text-[24px]">
               Team Registration begins
             </h2>
             <p className="font-monts text-[12px]  lg:text-[16px]">
               Interested teams can now show their interest in the getlinked tech
               hackathon 1.0 2023 by proceeding to register
             </p>
-            <h2 className="unique mt-10  lg:hidden font-monts text-[12px] lg:text-[16px]">
+            <h2 className="unique mt-10  lg:hidden font-monts text-[12px] lg:text-[24px]">
               Novermger 18 2023
             </h2>
           </div>
@@ -116,12 +116,12 @@ const Timeline = () => {
               className="absolute  right-32 w-5 top-[300px]"
             />
 
-            <h2 className="unique font-monts text-[12px] lg:text-[16px] ml-14 pt-10 lg:ml-0 ">
+            <h2 className="unique font-monts text-[12px] lg:text-[24px] ml-14 pt-10 lg:ml-0 lg:pt-0 ">
               Novermger 18 2023
             </h2>
           </div>
           <div className="pt-3 ml-14 lg:ml-0">
-            <h2 className=" -mt-16 lg:mt-0 unique font-monts text-[12px] lg:text-[16px]">
+            <h2 className=" -mt-16 lg:mt-0 unique font-monts text-[12px] lg:text-[24px]">
               Announcement of the accepted teams and ideas
             </h2>
             <p className="font-monts text-[12px] lg:text-[14px]">
@@ -132,18 +132,20 @@ const Timeline = () => {
               Novermger 18 2023
             </h2>
           </div>
-          <div className="ml-14 lg:ml-0 pt-6 lg:pt-4">
-            <h2 className="unique font-monts text-[12px] lg:text-[16px]">
+          <div className="ml-14 lg:ml-0 pt-6  lg:pt-0">
+            <h2 className="unique font-monts text-[12px] lg:text-[24px] lg:-mt-6 lg:pb-6">
               Novermger 18 2023
             </h2>
           </div>
-          <div className=" lg:pt-0 ml-14 lg:ml-0">
-            <h2 className="unique -mt-16 font-monts">Demo day</h2>
+          <div className=" lg:pt-10 ml-14 lg:ml-0">
+            <h2 className="unique -mt-16 font-monts text-[12px] lg:text-[24px]">
+              Demo day
+            </h2>
             <p className="font-monts text-[14px]">
               Teams get the opportunity to pitch their projects to judges. The
               winner of the hackathon will also be announced on this day
             </p>
-            <h2 className="unique font-monts text-[12px] lg:text-[16px]  pt-8 lg:ml-0 ">
+            <h2 className="unique font-monts text-[12px] lg:text-[16px]  pt-8 lg:ml-0 lg:hidden">
               Novermger 18 2023
             </h2>
           </div>

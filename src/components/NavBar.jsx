@@ -9,7 +9,9 @@ const NavBar = () => {
   return (
     <nav className="flex relative items-center justify-between px-10 lg:px-24 py-5 border-b navborder">
       <div>
-        <img src={Logo} alt="logo" className="" />
+        <Link to="/">
+          <img src={Logo} alt="logo" className="" />
+        </Link>
       </div>
       <div className="flex items-center">
         <ul className="hidden items-center space-x-10 mr-16 lg:flex">

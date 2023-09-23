@@ -52,7 +52,7 @@ const Privacy = () => {
             in this policy. Copy
           </p>
           <div>
-            <h2 className="lg:text-[32px] text-xl font-monts unique leading-5">
+            <h2 className="lg:text-[24px] text-xl font-monts unique leading-8">
               Licensing Policy
             </h2>
             <p className="font-monts mb-5 text-[12px] lg:text-[14px]">

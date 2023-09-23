@@ -17,7 +17,7 @@ const Header = () => {
         <img
           src={Creative}
           alt=""
-          className="absolute right-11 w-7 lg:right-40 -top-12 lg:-top-16 mb-3"
+          className="absolute right-11 w-7 lg:right-24 -top-12 lg:-top-9 mb-3"
         />
         <img
           src={Purple}
@@ -43,7 +43,7 @@ const Header = () => {
           getlinked Tech
         </h1>
         <div className="flex items-center gap-x-2 mb-3">
-          <h1 className="font-clash font-bold text-[32px] text-center lg:text-left lg:text-7xl">
+          <h1 className="font-clash font-bold text-[32px] text-center lg:text-left lg:text-6xl">
             Hackathon <span className="unique"> 1.0</span>
           </h1>
           <img src={Chain} alt="chain" className="w-10 lg:w-16" />

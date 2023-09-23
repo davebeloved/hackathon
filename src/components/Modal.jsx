@@ -13,7 +13,7 @@ const Modal = ({ setIsOpen, visible }) => {
             Congratulations
           </h2>
           <h2 className="font-monts text-[14px] lg:text-[32px]">
-            you havve successfully Registered
+            you have successfully Registered
           </h2>
           <p className="font-monts text-[12px]">
             Yes, it was easy and you did it

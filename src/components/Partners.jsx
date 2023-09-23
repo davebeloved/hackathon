@@ -12,7 +12,7 @@ import Purple from "../assets/purplelens.png";
 const Partners = () => {
   return (
     <div className="px-10 lg:px-24 py-16 border-b navborder">
-      <div className="text-center">
+      <div className="text-center space-y-2">
         <h2 className="font-clash text-xl lg:text-[32px]">
           Partners and Sponsors
         </h2>
@@ -55,7 +55,7 @@ const Partners = () => {
             <div className="absolute uniquebg w-20 lg:w-64 lg:-left-6 top-24 lg:top-40 h-1"></div>
             <div className="absolute uniquebg w-20 lg:w-72 lg:left-[296px] left-[196px] top-24 lg:top-40 h-1"></div>
             <div className="absolute uniquebg w-20 lg:w-72 lg:right-4 right-28 lg:top-40 top-24 h-1"></div>
-            <div className="flex items-center w-72">
+            <div className="flex items-center w-72 lg:w-full lg:gap-x-32">
               <div className="p-5 ">
                 <img src={Uberty} alt="uberty" className="" />
               </div>
