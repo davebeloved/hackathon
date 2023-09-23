@@ -8,7 +8,10 @@ import { faqs } from "../data";
 
 const Faq = () => {
   return (
-    <div className="px-10 lg:px-24 py-32 flex flex-col lg:flex-row gap-y-40 items-center justify-around border-b navborder">
+    <div
+      id="faq"
+      className="px-10 lg:px-24 py-32 flex flex-col lg:flex-row gap-y-40 items-center justify-around border-b navborder"
+    >
       <div className="lg:w-[500px] relative text-center lg:text-left">
         <img src={Star} alt="" className="absolute -top-10 -left-7" />
         {/* <img src={Purple} alt="" className="absolute -top-12 left-6 " /> */}

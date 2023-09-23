@@ -4,7 +4,7 @@ import Star2 from "../assets/star1.png";
 
 const Timeline = () => {
   return (
-    <div className="px-10 lg:px-24 py-16 ">
+    <div className="px-10 lg:px-24 py-16 " id="timeline">
       <div className="text-center">
         <h2 className="font-clash text-xl lg:text-[32px]">Timeline</h2>
         <p className="text-[13px] lg:text-[14px] font-monts">

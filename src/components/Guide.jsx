@@ -44,11 +44,6 @@ const Guide = () => {
           alt="the big idea"
           className="absolute hidden lg:block -right-40 top-64 "
         />
-        <img
-          src={Purple}
-          alt="the big idea"
-          className="absolute -right-40 lg:-right-96 top-72 "
-        />
       </div>
     </div>
   );

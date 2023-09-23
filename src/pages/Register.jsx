@@ -55,7 +55,7 @@ const Register = () => {
             <img src={Purple} alt="" className="absolute z-10 -top-16" />
             <img src={Image} alt="registration image z-20 absolute" />
           </div>
-          <div className="shd p-10 w-full relative">
+          <div className="shd p-10 w-full relative pb-7  lg:h-[630px]">
             <img
               src={Purple}
               alt=""
@@ -76,7 +76,7 @@ const Register = () => {
             <h1 className=" text-[16px] lg:text-[24px] font-monts mb-7">
               CREATE YOUR ACCOUNT
             </h1>
-            <form className="">
+            <form className="absolute z-20 ">
               <div className="flex items-center gap-7 w-full flex-wrap">
                 <div className="w-full lg:w-[45%] flex flex-col">
                   <label

@@ -1,7 +1,7 @@
 export const navLinks = [
   {
     label: "Timeline",
-    path: "#",
+    path: "timeline",
   },
   {
     label: "Overview",

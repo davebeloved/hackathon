@@ -20,7 +20,7 @@ const Criteria = () => {
         <img
           src={CriteriaImg}
           alt="the big idea"
-          className="absolute z-20 top-0 w-[440px] ml-16  lg:w-full"
+          className="absolute z-20 top-0 w-[440px] ml-16  lg:w-full lg:ml-0"
         />
         <img
           src={Purple}
