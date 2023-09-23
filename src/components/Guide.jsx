@@ -37,7 +37,7 @@ const Guide = () => {
           className="absolute lg:-right-10 bottom-[590px] lg:-bottom-5 w-5"
         />
       </div>
-      <div className="w-[430px] relative">
+      <div className="w-[350px] relative">
         <img src={Image} alt="the big idea" className="-z-20 " />
         <img
           src={Purple}

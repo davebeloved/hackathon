@@ -20,7 +20,7 @@ const Criteria = () => {
         <img
           src={CriteriaImg}
           alt="the big idea"
-          className="absolute z-20 top-0 w-[440px] ml-16  lg:w-full lg:ml-0"
+          className="absolute z-20 top-0 w-[350px] ml-28  lg:w-full lg:ml-0"
         />
         <img
           src={Purple}
@@ -41,21 +41,21 @@ const Criteria = () => {
           Key attributes
         </h1>
         <div className="space-y-5">
-          <p className="font-monts font-normal text-[14px]">
+          <p className="font-monts font-normal text-[12px] lg:text-[14px]">
             <span className="Color"> Innovation and Creativity:</span> Evaluate
             the uniqueness and creativity of the solution. Consider whether it
             addresses a real-world problem in a novel way or introduces
             innovative features.
           </p>
 
-          <p className="font-monts font-normal text-[14px]">
+          <p className="font-monts font-normal text-[12px] lg:text-[14px]">
             <span className="Color">Functionality:</span> Assess how well the
             solution works. Does it perform its intended functions effectively
             and without major issues? Judges would consider the completeness and
             robustness of the solution.
           </p>
 
-          <p className="font-monts font-normal text-[14px]">
+          <p className="font-monts font-normal text-[12px] lg:text-[14px]">
             <span className="Color">Impact and Relevance:</span> Determine the
             potential impact of the solution in the real world. Does it address
             a significant problem, and is it relevant to the target audience?
@@ -63,14 +63,14 @@ const Criteria = () => {
             benefits. Copy
           </p>
 
-          <p className="font-monts font-normal text-[14px]">
+          <p className="font-monts font-normal text-[12px] lg:text-[14px]">
             <span className="Color">Technical Complexity:</span> Evaluate the
             technical sophistication of the solution. Judges would consider the
             complexity of the code, the use of advanced technologies or
             algorithms, and the scalability of the solution.
           </p>
 
-          <p className="font-monts font-normal text-[14px]">
+          <p className="font-monts font-normal text-[12px] lg:text-[12px]">
             <span className="Color">Adherence to Hackathon Rules:</span> Judges
             will Ensure that the team adhered to the rules and guidelines of the
             hackathon, including deadlines, use of specific technologies or

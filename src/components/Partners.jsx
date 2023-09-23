@@ -41,16 +41,7 @@ const Partners = () => {
               alt="purple"
               className="absolute w-3 lg:w-5 lg:-top-10 lg:left-[500px]"
             />
-            <img
-              src={Star2}
-              alt="purple"
-              className="absolute top-96 w-5 left-[500px]"
-            />
-            <img
-              src={Purple}
-              alt="purple"
-              className="absolute lg:-bottom-[700px] lg:-right-[600px] -right-52 -bottom-64"
-            />
+
             <div className="absolute uniquebg w-1 h-14 lg:h-32 lg:right-80 right-24 top-4 lg:top-0"></div>
             <div className="absolute uniquebg w-20 lg:w-64 lg:-left-6 top-24 lg:top-40 h-1"></div>
             <div className="absolute uniquebg w-20 lg:w-72 lg:left-[296px] left-[196px] top-24 lg:top-40 h-1"></div>

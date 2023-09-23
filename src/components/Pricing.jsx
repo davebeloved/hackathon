@@ -22,7 +22,7 @@ const Pricing = () => {
         </p>
       </div>
       <div className=" px-10 lg:px-0 pr-28 pt-44  lg:pt-0 lg:py-20  flex flex-col  lg:flex-row gap-y-80 items-center justify-around  ">
-        <div className="w-[350px] lg:w-[500px] ml-20 lg:ml-0 relative -mt-64 mb-32">
+        <div className="w-[300px] lg:w-[500px] ml-20 lg:ml-0 relative -mt-64 mb-32">
           <img src={Star} alt="" className="absolute -top-24 left-32" />
           <img
             src={Star2}
@@ -34,13 +34,13 @@ const Pricing = () => {
           <img
             src={Purplelens}
             alt="the big idea"
-            className="absolute -top-16 left-32 w-[600px] z-10"
+            className="absolute -top-16 lg:left-32 w-[600px] z-10"
           />
-          <img
+          {/* <img
             src={Purplelens}
             alt="the big idea"
             className="absolute -top-28 left-10 w-[600px] z-10"
-          />
+          /> */}
           {/* <img
           src={Purple}
           alt="the big idea"
@@ -96,22 +96,8 @@ const Pricing = () => {
                 </h2>
               </div>
             </div>
-            <img
-              src={Purplelens}
-              alt="the big idea"
-              className="absolute -right-[490px] top-2"
-            />
-            <img
-              src={Purplelens}
-              alt="the big idea"
-              className="absolute -right-[500px] top-2"
-            />
           </div>
-          <img
-            src={Star2}
-            alt="the big idea"
-            className="absolute -right-28 top-44 w-5"
-          />
+
           <img
             src={Star2}
             alt="the big idea"
