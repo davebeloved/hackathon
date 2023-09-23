@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/logo.png";
 import SocialMedia from "../assets/socialmedia.png";
-import Group from "../assets/Group.png";
+import Group from "../assets/group.png";
 import Vector from "../assets/vectorr.png";
 import { footerLinks } from "../data";
 import { Link } from "react-router-dom";
