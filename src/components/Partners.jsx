@@ -2,7 +2,7 @@ import React from "react";
 import Star1 from "../assets/starr.png";
 import Star2 from "../assets/star1.png";
 import Uberty from "../assets/uberty.png";
-import Paybox from "../assets/paybox.png";
+import Paybox from "../assets/pay.png";
 import Winwise from "../assets/winwise.png";
 import Liberty from "../assets/liberty.png";
 import Viz from "../assets/viz.png";
