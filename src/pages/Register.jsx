@@ -138,7 +138,7 @@ const Register = () => {
                     className="w-full bg-transparent border p-3 px-5  rounded-sm mr-4 placeholder:text-[12px]"
                   />
                 </div>
-                <div className="w-28 lg:w-[45%] flex flex-col">
+                <div className="w-[45%] lg:w-[45%] flex flex-col">
                   <label
                     htmlFor="category"
                     className="mb-2 font-monts text-[12px] lg:text-[14px]"
@@ -164,7 +164,7 @@ const Register = () => {
                     <option>10</option>
                   </select>
                 </div>
-                <div className="w-28 lg:w-[45%] flex flex-col">
+                <div className="w-[45%] lg:w-[45%] flex flex-col">
                   <label
                     htmlFor="group size"
                     className="mb-2 font-monts text-[12px] lg:text-[14px]"
