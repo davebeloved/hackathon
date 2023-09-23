@@ -21,8 +21,8 @@ const Pricing = () => {
           Highlight of the prizes or rewards for winners and <br /> participants
         </p>
       </div>
-      <div className=" px-10 lg:px-0 pr-28 pt-44  lg:pt-0 lg:py-20  flex flex-col  lg:flex-row gap-y-80 items-center justify-around  ">
-        <div className="w-[300px] lg:w-[500px] ml-20 lg:ml-0 relative -mt-64 mb-32">
+      <div className=" px-10 lg:px-0 pr-44 pt-44  lg:pt-0 lg:py-20  flex flex-col  lg:flex-row gap-y-80 items-center justify-around  ">
+        <div className="w-[300px] lg:w-[420px] ml-20 lg:ml-0 relative -mt-64 mb-32">
           <img src={Star} alt="" className="absolute -top-24 left-32" />
           <img
             src={Star2}
@@ -48,9 +48,9 @@ const Pricing = () => {
         /> */}
         </div>
 
-        <div className="lg:w-[500px] relative">
+        <div className="lg:w-[700px] relative">
           <div className="">
-            <div className="grid grid-cols-3 gap-x-20 lg:gap-x-32">
+            <div className="grid grid-cols-3 ml-10 lg:ml-0 gap-x-28 lg:gap-x-2">
               <div className="border faqborder bg-[#150e28] rounded-lg relative w-24 lg:w-48  lg:h-72 pt-20 lg:pt-28 lg:pb-8 text-center uniqueprice">
                 <img
                   src={Silver}
@@ -69,7 +69,7 @@ const Pricing = () => {
               <img
                 src={Gold}
                 alt="gold"
-                className="absolute -top-16 lg:-top-40 z-20 left-20 lg:left-[179px] w-32 lg:w-64 "
+                className="absolute -top-16 lg:-top-40 z-20 left-32 lg:left-[205px] w-32 lg:w-64 "
               />
               <div className="border faqborder bg-[#150e28] rounded-lg relative mt-7 w-24 lg:w-48 pt-16 lg:pt-28  lg:pb-8 mt- text-center uniqueprice">
                 <h2 className="font-monts text-[12px] lg:text-[36px]">1st</h2>
