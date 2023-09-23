@@ -5,7 +5,7 @@ export const navLinks = [
   },
   {
     label: "Overview",
-    path: "#",
+    path: "/",
   },
   {
     label: "FAQs",
@@ -13,7 +13,7 @@ export const navLinks = [
   },
   {
     label: "Contact",
-    path: "#",
+    path: "/contact",
   },
 ];
 export const footerLinks = [
@@ -31,7 +31,7 @@ export const footerLinks = [
   },
   {
     label: "Register",
-    path: "#",
+    path: "/register",
   },
 ];
 

@@ -4,10 +4,10 @@ import { Link, useNavigate } from "react-router-dom";
 import { navLinks } from "../data";
 import Menu from "../assets/menu.png";
 
-const NavBar = () => {
+const RegisterNav = () => {
   const navigate = useNavigate();
   return (
-    <nav className="flex relative items-center justify-between px-10 lg:px-24 py-5 border-b navborder">
+    <nav className="flex relative items-center justify-between px-10 lg:px-24 py-5">
       <div>
         <img src={Logo} alt="logo" className="" />
       </div>
@@ -24,7 +24,7 @@ const NavBar = () => {
         </ul>
         <button
           onClick={() => navigate("/register")}
-          className="btn  hidden font-monts lg:block"
+          className="border py-2 px-10 rounded-lg  hidden font-monts lg:block"
         >
           Register
         </button>
@@ -34,4 +34,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default RegisterNav;
