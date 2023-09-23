@@ -12,12 +12,12 @@ import Creative from "../assets/creative.png";
 
 const Header = () => {
   return (
-    <div className="px-10 lg:px-24 grid grid-cols-1 lg:grid-cols-2 gap-y-36 gap-x-5 pt-32 pb-12 lg:overflow-hidden border-b navborder">
+    <div className="px-10 lg:px-24 grid grid-cols-1 lg:grid-cols-2 gap-y-36 gap-x-5 pt-32 pb-12 lg:overflow-hidden lg:border-b navborder">
       <div className="mt-10 lg:mt-20 relative">
         <img
           src={Creative}
           alt=""
-          className="absolute right-11 w-7 lg:right-24 -top-12 lg:-top-9 mb-3"
+          className="absolute right-32 w-4 lg:right-24 -top-7 lg:-top-9 mb-3"
         />
         <img
           src={Purple}
@@ -39,15 +39,15 @@ const Header = () => {
           alt=""
           className="absolute bottom-28 w-4 lg:bottom-16 right-0 lg:right-44 mb-3 lg:w-5"
         />
-        <h1 className="font-clash font-bold text-4xl text-center lg:text-left leading-4 lg:text-7xl lg:leading-[55px] mb-5">
+        <h1 className="font-clash font-bold text-3xl text-center lg:text-left leading-4 lg:text-7xl lg:leading-[55px] mb-5">
           getlinked Tech
         </h1>
-        <div className="flex items-center gap-x-2 mb-3">
-          <h1 className="font-clash font-bold text-[32px] text-center lg:text-left lg:text-6xl">
+        <div className="flex items-center justify-center lg:justify-start gap-x-2 mb-3">
+          <h1 className="font-clash font-bold text-[30px] text-center lg:text-left lg:text-6xl">
             Hackathon <span className="unique"> 1.0</span>
           </h1>
-          <img src={Chain} alt="chain" className="w-10 lg:w-16" />
-          <img src={Fire} alt="fire" className="w-10 lg:w-16" />
+          <img src={Chain} alt="chain" className="w-5 lg:w-16" />
+          <img src={Fire} alt="fire" className="w-5 lg:w-16" />
         </div>
         <p className="mb-3 leading-5 text-center lg:text-left">
           Participate in getlinked tech Hackathon 2023 stand a chance to win a
@@ -69,11 +69,15 @@ const Header = () => {
         </div>
       </div>
       <div className="relative -mt-28 ">
-        <div className="font-monts italic font-bold absolute -top-[420px]  lg:relative">
-          <h2 className="lg:text-right text-[16px] text-center  lg:text-3xl">
+        <div className="font-monts italic font-bold absolute -top-[420px] w-full lg:w-auto  lg:relative">
+          <h2 className="lg:text-right text-[12px] text-center  lg:text-3xl">
             Igniting a Revolution in HR Innovation
           </h2>
-          <img src={Vector} alt="" className="absolute right-0 w-32" />
+          <img
+            src={Vector}
+            alt=""
+            className="absolute  lg:right-0 right-28 lg:w-32 w-16"
+          />
         </div>
         <div className="relative">
           <img src={Matrix} alt="" className="absolute left-6 left-4" />

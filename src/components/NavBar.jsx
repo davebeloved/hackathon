@@ -10,7 +10,7 @@ const NavBar = () => {
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   return (
-    <nav className="lg:flex relative items-center justify-between px-10 lg:px-24 py-5 lg:border-b navborder">
+    <nav className="lg:flex relative items-center justify-between px-10 lg:px-24 py-5 border-b navborder">
       <div className="flex items-center justify-between">
         <NavLink to="/">
           <img src={Logo} alt="logo" className="w-32 lg:w-full" />
