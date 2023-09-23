@@ -65,7 +65,7 @@ const Timeline = () => {
           <img src={Star1} alt="star" className="absolute bottom-10 left-0" />
         </div>
 
-        <div className="flex flex-col absolute left-0 -top-14 lg:relative lg:mt-12 items-center gap-y-2 ">
+        <div className="flex flex-col absolute left-0 -top-4 lg:relative lg:mt-12 items-center gap-y-2 ">
           <div className="w-1 h-28 uniquebg"></div>
           <div className="uniquebg w-10 h-10 rounded-full flex items-center justify-center">
             <span className="font-monts ">1</span>

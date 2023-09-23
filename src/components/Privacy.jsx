@@ -69,7 +69,7 @@ const Privacy = () => {
                 to use the item available at any free source sites, for your
                 project developement
               </li>
-              <button className="btn font-monts inline-block lg:ml-32 ml-14 mt-4">
+              <button className="btn font-monts block lg:ml-32 mx-auto mt-4">
                 Read More
               </button>
             </ul>
