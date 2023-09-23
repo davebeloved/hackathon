@@ -4,7 +4,7 @@ import Arrrow from "../assets/arrow.png";
 import Star from "../assets/starr.png";
 import Star1 from "../assets/star1.png";
 import Purple from "../assets/purple.png";
-import Ellipse from "../assets/ellipse.png";
+import Ellipse from "../assets/ecl.png";
 
 const Criteria = () => {
   return (
